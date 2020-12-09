@@ -7,10 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
-import { DetailListComponent } from './recipes/detail-list/detail-list.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShopingListComponent } from './shoping-list/shoping-list.component';
-import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edit.component'
+import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edit.component';
+import { RecipeDetailsComponent } from './recipes/recipe-details/recipe-details.component'
 
 
 @NgModule({
@@ -19,10 +19,10 @@ import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edi
     HeaderComponent,
     RecipesComponent,
     RecipeListComponent,
-    DetailListComponent,
     RecipeItemComponent,
     ShopingListComponent,
     ShoppingEditComponent,
+    RecipeDetailsComponent,
     
   ],
   imports: [
